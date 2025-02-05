@@ -1,0 +1,5 @@
+path: ./
+train: labeled/images
+val: test/images
+nc: 2
+names: ["weed", "crop"]

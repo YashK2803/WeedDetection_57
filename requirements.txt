@@ -1,0 +1,8 @@
+pyyaml
+torch
+numpy
+ultralytics
+opencv-python
+albumentations
+tqdm
+imgaug
