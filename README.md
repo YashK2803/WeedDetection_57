@@ -17,7 +17,8 @@ Metric = 0.5 * (F1-Score) + 0.5 * (mAP@[.5:.95])
 
 
 ## Dataset
-The dataset used in this project is provided by the challenge organizers. External datasets are strictly prohibited.
+There is a Datasets.zip file the repo. Before running the model, extract the contents of the file and keep the 'labeled','unlabeled' and 'test' in the root directory of the repo
+
 
 ## Approaches Implemented
 We implemented five different approaches for semi-supervised learning:
@@ -65,10 +66,6 @@ Install dependencies:
 sh
 $ pip install -r requirements.txt
 
-
-## Usage Instructions
-
-   ```
 
 ## Results & Insights
 - *Best approach:* *Pseudo-Labeling Approach 1* due to its better utilization of unlabeled data.
