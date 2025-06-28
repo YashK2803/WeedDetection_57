@@ -25,7 +25,7 @@ We have implemented five different approaches for semi-supervised learning:
 
 1. *Pseudo-Labeling Approach 1*
    - Gradual inclusion of pseudo-labeled data in training.
-   - Confidence threshold starts at *0.85, reduced stepwise to **0.65*.
+   - Confidence threshold starts at *0.85, reduced stepwise to *0.65*.
    - *Final Scores:* F1: 0.885, mAP@[.5:.95]: 0.602, Metric: 0.743
 
 2. *Two-Stage Augmented Pseudo-Labeling*
