@@ -70,4 +70,4 @@ $ pip install -r requirements.txt
 ## Results & Insights
 - *Best approach:* *Pseudo-Labeling Approach 1* due to its better utilization of unlabeled data.
 - *Challenges:* Data augmentation was ineffective due to the similarities between labeled and test images.
-- *Future Work:* Implement advanced self-training techniques and refine augmentation strategies.
+- *Future Work:* Implement advanced self-training techniques and refine the augmentation strategies.
