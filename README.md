@@ -16,11 +16,11 @@ Evaluation is based on the following metric:
 Metric = 0.5 * (F1-Score) + 0.5 * (mAP@[.5:.95])
 
 
-## Dataset
+## Dataset 
 There is a Datasets.zip file the repo. Before running the model, extract the contents of the file and keep the 'labeled','unlabeled' and 'test' in the root directory of the repo
 
 
-## Approaches Implemented
+## Approaches Implemented in Project
 We have implemented five different approaches for semi-supervised learning:
 
 1. *Pseudo-Labeling Approach 1*
@@ -47,7 +47,7 @@ We have implemented five different approaches for semi-supervised learning:
    - Computationally expensive with lower performance.
    - *Final Scores:* F1: 0.766, mAP@[.5:.95]: 0.457, Metric: 0.616
 
-## Installation & Setup
+## Installation and Setup
 ### Prerequisites
 - Python 3.8+
 - PyTorch
